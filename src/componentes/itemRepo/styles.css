@@ -1,0 +1,75 @@
+.container_repo {
+  width: 100%;
+  max-width: 350px;
+  padding: 30px 80px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container_repo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.container_repo h3 {
+  padding: 0 20px;
+  font-size: 32px;
+  color: #fafafa;
+}
+
+.container_repo p {
+  padding: 0 20px;
+  font-size: 16px;
+  color: #fafafa60;
+}
+
+.container_repo a {
+  background-color: #fafafa;
+  width: 100px;
+  height: 2rem;
+  margin: 20px auto 30px auto;
+  text-align: center;
+  line-height: 2rem;
+  border-radius: 20px;
+  /* list-style: none; */
+  text-decoration: none;
+}
+.container_repo a:hover {
+  border: 1px solid #fafafa;
+  background-color: #000;
+  color: #fff;
+}
+
+.box_follow {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_repo button {
+  background-color: #fafafa;
+  border: 1px solid #fafafa;
+  border-radius: 20px;
+  width: 70px;
+  height: 32px;
+}
+.container_repo button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.container_repo hr {
+  width: 100%;
+  color: #fafafa60;
+  margin: 20px 0;
+}
+.container_repo:hover {
+  background-color: #fafafa40;
+  border-radius: 20px;
+  border: 1px solid #fafafa;
+  cursor: pointer;
+}
